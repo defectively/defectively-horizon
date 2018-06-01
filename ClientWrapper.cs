@@ -81,7 +81,9 @@ namespace Defectively.Horizon
                         break;
                     }
                 }
-            } catch { }
+            } catch {
+                MessageBox.Show("Disconnected");
+            }
         }
 
         private void OnDisconnected(ConnectableBase sender, DisconnectedEventArgs e) {

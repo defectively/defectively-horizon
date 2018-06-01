@@ -30,6 +30,7 @@ namespace Defectively.Horizon
         }
 
         private void OnClosing(object sender, CancelEventArgs e) {
+            e.Cancel = true;
             wrapper.Client.Disconnect();
             File.Create(Path.Combine(ClientWrapper.SessionFolderPath, "EXPIRED"));
         }
