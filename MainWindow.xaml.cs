@@ -14,25 +14,20 @@ namespace Defectively.Horizon
             InitializeComponent();
         }
 
-        public async Task<bool> Connect(string host, int port, string id, byte[] hash) {
+        public async Task<bool> Connect(string host, int port, string id, byte[] hash, Action<bool, string> callback) {
             wrapper = new ClientWrapper {
                 Id = id,
                 PasswordHash = hash
             };
 
-            var success = await wrapper.Connect(host, port);
-
-            if (success) {
-                Show();
-            }
-
-            return success;
+            return await wrapper.Connect(host, port, callback);
         }
 
         private void OnClosing(object sender, CancelEventArgs e) {
             e.Cancel = true;
             wrapper.Client.Disconnect();
             File.Create(Path.Combine(ClientWrapper.SessionFolderPath, "EXPIRED"));
+            Environment.Exit(0);
         }
     }
 }

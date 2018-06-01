@@ -13,6 +13,7 @@ namespace Defectively.Horizon
 {
     public partial class ConnectWindow : Window
     {
+        private MainWindow mainWindow;
         private bool Connected;
 
         public ConnectWindow() {
@@ -97,8 +98,19 @@ namespace Defectively.Horizon
         }
 
         private async Task ConnectAndLogin() {
-            var window = new MainWindow();
-            if (await window.Connect(AddressTextBox.Text.Split(':')[0], int.Parse(AddressTextBox.Text.Split(':')[1]), IdTextBox.Text, CryptographyProvider.Instance.SHA512ComputeHash(PasswordBox.Password))) {
+            mainWindow = new MainWindow();
+            if (await mainWindow.Connect(AddressTextBox.Text.Split(':')[0], int.Parse(AddressTextBox.Text.Split(':')[1]), IdTextBox.Text, CryptographyProvider.Instance.SHA512ComputeHash(PasswordBox.Password), LoginCallback)) {
+                // TODO: Connection failed
+            }
+        }
+
+        private void LoginCallback(bool success, string details) {
+            MessageBox.Show($"Login successful: {success}\nDetails: {details}");
+
+            // TODO: Show Nice Messages
+
+            if (success) {
+                mainWindow.Show();
                 Close();
             }
         }

@@ -19,12 +19,16 @@ namespace Defectively.Horizon
         public Client Client { get; set; }
         public static string SessionFolderPath { get; set; }
 
-        public async Task<bool> Connect(string host, int port) {
+        private Action<bool, string> authCallback;
+
+        public async Task<bool> Connect(string host, int port, Action<bool, string> callback) {
             ComponentPool.ClientWrapper = this;
 
             Client = new Client { CryptographicData = CryptographyProvider.Instance.GetRandomData() };
             Client.Connected += OnConnected;
             Client.Disconnected += OnDisconnected;
+
+            authCallback = callback;
 
             try {
                 await Client.ConnectAsync(host, port, true);
@@ -46,13 +50,15 @@ namespace Defectively.Horizon
 
                 break;
             case PackageType.Success:
-                Client.Account = package.GetContent<Account>(0);
+                Client.Account = package.GetContent<Account>();
 
                 SessionFolderPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "sessions", Client.SessionId.ToString());
                 Directory.CreateDirectory(SessionFolderPath);
 
                 break;
             }
+
+            authCallback.Invoke(package.Type == PackageType.Success, package.Type == PackageType.Success ? Client.Account.Id : package.GetContent<string>());
 
             await Listen();
         }
