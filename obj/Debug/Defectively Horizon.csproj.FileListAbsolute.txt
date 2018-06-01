@@ -1,0 +1,62 @@
+D:\Defectively Horizon\Defectively Horizon\bin\Debug\Defectively Horizon.exe.config
+D:\Defectively Horizon\Defectively Horizon\bin\Debug\Defectively Horizon.exe
+D:\Defectively Horizon\Defectively Horizon\bin\Debug\Defectively Horizon.pdb
+D:\Defectively Horizon\Defectively Horizon\bin\Debug\Defectively Core.dll
+D:\Defectively Horizon\Defectively Horizon\bin\Debug\Newtonsoft.Json.dll
+D:\Defectively Horizon\Defectively Horizon\bin\Debug\Defectively Core.pdb
+D:\Defectively Horizon\Defectively Horizon\bin\Debug\Newtonsoft.Json.xml
+D:\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.csprojAssemblyReference.cache
+D:\Defectively Horizon\Defectively Horizon\obj\Debug\MainWindow.baml
+D:\Defectively Horizon\Defectively Horizon\obj\Debug\MainWindow.g.cs
+D:\Defectively Horizon\Defectively Horizon\obj\Debug\App.g.cs
+D:\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon_MarkupCompile.cache
+D:\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.g.resources
+D:\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively.Horizon.Properties.Resources.resources
+D:\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.csproj.GenerateResource.cache
+D:\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.csproj.CoreCompileInputs.cache
+D:\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.csproj.CopyComplete
+D:\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.exe
+D:\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.pdb
+E:\Defectively Horizon\Defectively Horizon\bin\Debug\Defectively Horizon.exe.config
+E:\Defectively Horizon\Defectively Horizon\bin\Debug\Defectively Horizon.exe
+E:\Defectively Horizon\Defectively Horizon\bin\Debug\Defectively Horizon.pdb
+E:\Defectively Horizon\Defectively Horizon\bin\Debug\Defectively Core.dll
+E:\Defectively Horizon\Defectively Horizon\bin\Debug\Newtonsoft.Json.dll
+E:\Defectively Horizon\Defectively Horizon\bin\Debug\Defectively Core.pdb
+E:\Defectively Horizon\Defectively Horizon\bin\Debug\Newtonsoft.Json.xml
+E:\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.csprojAssemblyReference.cache
+E:\Defectively Horizon\Defectively Horizon\obj\Debug\MainWindow.baml
+E:\Defectively Horizon\Defectively Horizon\obj\Debug\MainWindow.g.cs
+E:\Defectively Horizon\Defectively Horizon\obj\Debug\App.g.cs
+E:\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon_MarkupCompile.cache
+E:\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.g.resources
+E:\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively.Horizon.Properties.Resources.resources
+E:\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.csproj.GenerateResource.cache
+E:\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.csproj.CoreCompileInputs.cache
+E:\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.csproj.CopyComplete
+E:\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.exe
+E:\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.pdb
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\bin\Debug\Defectively Horizon.exe.config
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\bin\Debug\Defectively Horizon.exe
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\bin\Debug\Defectively Horizon.pdb
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\bin\Debug\Defectively Core.dll
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\bin\Debug\Newtonsoft.Json.dll
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\bin\Debug\Defectively Core.pdb
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\bin\Debug\Newtonsoft.Json.xml
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.csprojAssemblyReference.cache
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\obj\Debug\MainWindow.baml
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\obj\Debug\MainWindow.g.cs
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\obj\Debug\App.g.cs
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon_MarkupCompile.cache
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.g.resources
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively.Horizon.Properties.Resources.resources
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.csproj.GenerateResource.cache
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.csproj.CoreCompileInputs.cache
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.csproj.CopyComplete
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.exe
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon.pdb
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\obj\Debug\ConnectWindow.g.cs
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\obj\Debug\Defectively Horizon_MarkupCompile.lref
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\obj\Debug\ConnectWindow.baml
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\obj\Debug\ScanWindow.g.cs
+E:\Visual Studio Projects\Defectively Horizon\Defectively Horizon\obj\Debug\ScanWindow.baml

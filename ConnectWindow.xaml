@@ -1,0 +1,61 @@
+﻿<Window x:Class="Defectively.Horizon.ConnectWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Defectively.Horizon"
+        mc:Ignorable="d"
+        Title="Defectively Horizon"
+        MinHeight="500"
+        Height="500"
+        MinWidth="650"
+        Width="650"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="54" />
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Column="0" Grid.Row="0">
+            <StackPanel Margin="28" VerticalAlignment="Center">
+                <TextBlock x:Name="TitleTextBlock" FontSize="20" Padding="0" TextWrapping="Wrap">Defectively Horizon</TextBlock>
+
+                <Label FontWeight="SemiBold" Padding="0,17,0,5">Address</Label>
+                <TextBox x:Name="AddressTextBox" FontSize="14" Padding="6" PreviewKeyUp="OnAddressPreviewKeyUp">localhost:42000</TextBox>
+
+                <Label FontWeight="SemiBold" Padding="0,17,0,5">Identifier</Label>
+                <TextBox x:Name="IdTextBox" FontSize="14" IsEnabled="False" Padding="6" PreviewKeyUp="OnCredentialsPreviewKeyUp" />
+
+                <Label FontWeight="SemiBold" Padding="0,17,0,5">Password</Label>
+                <PasswordBox x:Name="PasswordBox" FontSize="14" IsEnabled="False" Padding="6" PreviewKeyUp="OnCredentialsPreviewKeyUp" />
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Column="1" Grid.Row="0" Grid.RowSpan="2" >
+            <Grid.Background>
+                <LinearGradientBrush>
+                    <!--<GradientStop Color="#FF26D0CE" Offset="0"/>
+                    <GradientStop Color="#FF1A2980" Offset="1"/>-->
+                    <GradientStop Color="#FFFFD100" Offset="0"/>
+                    <GradientStop Color="#FFE14A4A" Offset=".7"/>
+                </LinearGradientBrush>
+            </Grid.Background>
+        </Grid>
+
+        <Grid Grid.Column="0" Grid.Row="1">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="28,0,28,28">
+                <Button x:Name="PrimaryButton" Click="OnPrimaryClick" Height="26" IsDefault="True" Width="100">Connect</Button>
+                <Button x:Name="SecondaryButton" Click="OnSecondaryClick" Height="26" Margin="9,0,0,0" Width="100">Serverscan</Button>
+            </StackPanel>
+        </Grid>
+
+    </Grid>
+
+</Window>
